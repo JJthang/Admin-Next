@@ -1,5 +1,4 @@
 import { History, Search } from 'lucide-react'
-import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
@@ -17,7 +16,7 @@ const Header = (props: Props) => {
           </div>
         </div>
         <div className='flex'>
-            <Image height={1} width={40} className='rounded-full h-[40px]' src={'/Image1.png'} alt='Error not found' />
+            hello world
         </div>
     </div>
   )
