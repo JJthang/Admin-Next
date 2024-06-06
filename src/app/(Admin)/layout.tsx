@@ -1,7 +1,12 @@
 import Header from "@/components/cm/Header";
 import Sidebar from "@/components/cm/Sidebar";
 import React from "react";
-const layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
+
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+const layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <div className="flex">
